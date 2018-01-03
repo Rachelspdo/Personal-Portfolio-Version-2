@@ -11,14 +11,17 @@
 
 /* Small tablet to big tablet from 481px to 768px */
 @media only screen and (max-width: 767px) {
+    
+    .main-nav { display: none}
     .mobile-nav-icon {
         display: inline-block!important;
     }
     
     .main-nav {
-        float: left;
+        float: right;
         margin-top: 20px!important;
     }
+    
     .main-nav li {
         display: block!important;
     }
@@ -26,7 +29,6 @@
     .main-nav li a:link,
     .main-nav li a:visited {
         display: block;
-        border: none!important;
     }
 }
 

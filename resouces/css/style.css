@@ -86,17 +86,17 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 1px solid white;
-    transition: border-bottom 0.2s;
 }
 
+/* ----- Mobile Nav ----- */
 .mobile-nav-icon {
     float: right;
     cursor: pointer;
+    margin: 15px;
     display: none;
-
 }
 
 .mobile-nav-icon i {
-    font-size: 100%;
+    font-size: 200%;
     color: whitesmoke;
 }

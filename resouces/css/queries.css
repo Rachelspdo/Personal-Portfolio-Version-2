@@ -11,11 +11,25 @@
 
 /* Small tablet to big tablet from 481px to 768px */
 @media only screen and (max-width: 767px) {
-    .main-nav li { 
-        font-size: 120%}
+    .mobile-nav-icon {
+        display: inline-block!important;
+    }
+    
+    .main-nav {
+        float: left;
+        margin-top: 20px!important;
+    }
+    .main-nav li {
+        display: block!important;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: none!important;
+    }
 }
 
 /* Small tablet to big tablet from 0 to 480px */
-@media only screen and (max-width: 510px) {
-    .main-nav { display: none }
+@media only screen and (max-width: 480px) {
 }

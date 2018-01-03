@@ -78,6 +78,7 @@ header {
     display: inline-block; /* Make li elements side by side */
     margin: 0 40px;
     letter-spacing: 4px;
+    text-align: right;
 }
 
 .main-nav li a:link, /* This is a link */
@@ -101,11 +102,11 @@ header {
 .mobile-nav-icon {
     float: right;
     cursor: pointer;
-    margin: 23px;
+    margin: 25px;
     display: none;
 }
 
 .mobile-nav-icon i {
     font-size: 150%;
-    color: whitesmoke;
+    color: #FFFAF2;
 }

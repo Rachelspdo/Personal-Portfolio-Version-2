@@ -88,3 +88,15 @@ header {
     border-bottom: 1px solid white;
     transition: border-bottom 0.2s;
 }
+
+.mobile-nav-icon {
+    float: right;
+    cursor: pointer;
+    display: none;
+
+}
+
+.mobile-nav-icon i {
+    font-size: 100%;
+    color: whitesmoke;
+}

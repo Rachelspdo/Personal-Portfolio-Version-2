@@ -17,6 +17,16 @@ body {
     letter-spacing: 2px;
 }
 
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
 /* ------------------------------------------- */
 /* REUSABLE COMPONENTS */
 /* ------------------------------------------- */
@@ -24,6 +34,10 @@ body {
 .row {
     max-width: 1040px;
     margin: 0 auto;
+}
+
+.section {
+    padding: 0;
 }
 
 /* ----- HEADINGS ----- */
@@ -117,11 +131,16 @@ header {
 /* ----- Stories Section ----- */
 .stories {
     width: 100%;
-    height: 50vh;
+    height: 70vh;
 }
+
+.story:first-child{
+}
+
 
 /* ----- Projects Section ----- */
 .projects {
     width: 100%;
     height: 80vh;
+    background-color: cornflowerblue;
 }

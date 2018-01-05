@@ -32,7 +32,7 @@ body {
 /* ------------------------------------------- */
 
 .row {
-    max-width: 1040px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -62,6 +62,7 @@ h6 {
     margin-top: 1vw;
     color: #FFFAF2;
 }
+
 
 /* ------------------------------------------- */
 /* HEADER */
@@ -149,14 +150,20 @@ header {
     height: 80vh;
 }
 
+
 .title-project {
-    font-size: 100%;
+    text-align: center;
+}
+
+.project-display {
+    text-align: center;
 }
 
 
 .project-display img {
-    width: 100%;
-    border-radius: 20px;
-    border: 3px solid grey;
-    height: 33vh;
+    width: 85%;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    height: 35vh;
+    margin-bottom: 5vh;
 }

@@ -135,6 +135,11 @@ header {
 }
 
 .story:first-child{
+    background-color: antiquewhite;
+}
+
+.story:last-of-type{
+    background-color: skyblue; 
 }
 
 

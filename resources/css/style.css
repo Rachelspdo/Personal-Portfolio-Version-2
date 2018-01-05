@@ -149,4 +149,14 @@ header {
     height: 80vh;
 }
 
-.
+.title-project {
+    font-size: 100%;
+}
+
+
+.project-display img {
+    width: 100%;
+    border-radius: 20px;
+    border: 3px solid grey;
+    height: 33vh;
+}

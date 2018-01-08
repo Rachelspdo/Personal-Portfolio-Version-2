@@ -153,6 +153,9 @@ header {
 
 .title-project {
     text-align: center;
+    border-bottom: 2px solid #ed9c19;
+    border-bottom-left-radius: 25px;
+    
 }
 
 
@@ -167,3 +170,4 @@ header {
     height: 35vh;
     margin-bottom: 5vh;
 }
+

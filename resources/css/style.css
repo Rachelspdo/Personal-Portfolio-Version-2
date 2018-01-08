@@ -158,7 +158,6 @@ header {
     
 }
 
-
 .project-display {
     text-align: center;
 }
@@ -169,5 +168,16 @@ header {
     border: 1px solid #eee;
     height: 35vh;
     margin-bottom: 5vh;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
+
+.project-display img:hover {
+    border: 2px solid #ed9c19;
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
 

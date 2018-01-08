@@ -26,6 +26,10 @@
     .main-nav li a:visited {
         display: block;
     }
+    
+    .title-project {
+        margin-bottom: 5vh;
+    }
 }
 
 /* Small tablet to big tablet from 0 to 480px */

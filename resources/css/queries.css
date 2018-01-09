@@ -27,8 +27,12 @@
         display: block;
     }
     
-    .title-project {
-        margin-bottom: 5vh;
+    .title-section {
+        margin: 2vh 0 4vh 0;
+        font-size: 4vh;
+    }
+    .project-display {
+        margin-left: -4vh;
     }
 }
 

@@ -147,15 +147,16 @@ header {
 /* ----- Projects Section ----- */
 .projects {
     width: 100%;
-    height: auto;
+    height: 100vh;
+    background-color: rgba(198, 198, 198, 0.47);
+    padding-top: 5vh;
 }
 
 
-.title-project {
+.title-section {
     text-align: center;
     border-bottom: 2px solid #ed9c19;
     border-bottom-left-radius: 25px;
-    
 }
 
 .project-display {

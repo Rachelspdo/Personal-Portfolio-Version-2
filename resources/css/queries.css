@@ -35,7 +35,3 @@
         margin-left: -4vh;
     }
 }
-
-/* Small tablet to big tablet from 0 to 480px */
-@media only screen and (max-width: 480px) {
-}

@@ -69,8 +69,8 @@ h6 {
 /* ------------------------------------------- */
 
 header {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(img/background.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/background.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.5))), url(img/background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(img/background.jpg);
     background-size: cover; /* see whole image */
     background-position: center;
     background-attachment: fixed;
@@ -80,7 +80,7 @@ header {
 .name-box{
     position: absolute; /* Make the text box absolute to place it anywhere */
     width: 100%;
-    top: 40%;
+    top: 32%;
     text-align: center;
 }
 
@@ -112,7 +112,7 @@ header {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 1px solid #FFFAF2;
+    border-bottom: 1px solid #f9933e;
 }
 
 /* ----- Mobile Navigation ----- */
@@ -147,7 +147,7 @@ header {
 /* ----- Projects Section ----- */
 .projects {
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: rgba(198, 198, 198, 0.47);
     padding-top: 5vh;
 }
@@ -155,8 +155,9 @@ header {
 
 .title-section {
     text-align: center;
-    border-bottom: 2px solid #f2be5e;
-    border-bottom-left-radius: 25px;
+    font-size: 7vh;
+    font-weight: 400;
+    padding-bottom: 5vh;
 }
 
 .project-display {
@@ -167,7 +168,7 @@ header {
     width: 85%;
     border-radius: 10px;
     border: 1px solid #eee;
-    height: 35vh;
+    height: 45vh;
     margin-bottom: 5vh;
     -webkit-transform: scale(1);
 	transform: scale(1);

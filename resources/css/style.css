@@ -44,7 +44,7 @@ body {
 
 h1 {
     margin: 0;
-    color: #ed9c19;
+    color: #f9933e;
     font-size: 220%;
     font-weight: 400;
     letter-spacing: 3vw;
@@ -69,8 +69,8 @@ h6 {
 /* ------------------------------------------- */
 
 header {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(img/beach-min.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/beach-min.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(img/background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/background.jpg);
     background-size: cover; /* see whole image */
     background-position: center;
     background-attachment: fixed;
@@ -80,7 +80,7 @@ header {
 .name-box{
     position: absolute; /* Make the text box absolute to place it anywhere */
     width: 100%;
-    top: 50%;
+    top: 40%;
     text-align: center;
 }
 
@@ -155,7 +155,7 @@ header {
 
 .title-section {
     text-align: center;
-    border-bottom: 2px solid #ed9c19;
+    border-bottom: 2px solid #f2be5e;
     border-bottom-left-radius: 25px;
 }
 

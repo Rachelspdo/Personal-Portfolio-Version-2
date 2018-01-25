@@ -8,13 +8,16 @@
 html
 body {
     background-color: #fff;
-    color: #5a5252;
+    color: #333333;
     font-family: 'Lato', 'Arial', sans-serif;
-    font-size: 3vw;
+    font-size: 2vw;
     font-weight: 300;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
     letter-spacing: 2px;
+    line-height: 5vh;
+    font-family: 'Lato', cursive;
+
 }
 
 .clearfix {zoom: 1;}
@@ -40,27 +43,28 @@ body {
     padding: 0;
 }
 
+
 /* ----- HEADINGS ----- */
 
 h1 {
-    margin: 0;
     color: #f9933e;
     font-size: 220%;
     font-weight: 400;
-    letter-spacing: 3vw;
+    text-align: center;
+    margin: 10vh 0 4vh 0;
+    font-family: 'Patrick Hand', cursive;
 }
 
 h5 {
     margin: 0;
     letter-spacing: 1vh;
     font-size: 90%;
-    color: #FFFAF2;
-    margin-left: -28vw;
+    color: white;
 }
 
 h6 {
     margin-top: 1vw;
-    color: #FFFAF2;
+    color: white;
 }
 
 
@@ -74,14 +78,20 @@ header {
     background-size: cover; /* see whole image */
     background-position: center;
     background-attachment: fixed;
-    height: 100vh; /* set brg image 100 viewport*/    
+    height: 100vh; /* set brg image 100 viewport*/ 
+    -webkit-box-shadow: 0 5px 15px #888; 
+    box-shadow: 0 5px 15px #888;
+    z-index: 5;
+    opacity: 0.9;
 }
 
 .name-box{
     position: absolute; /* Make the text box absolute to place it anywhere */
     width: 100%;
-    top: 32%;
+    top: 60%;
     text-align: center;
+    z-index: 8;
+    opacity: 1;
 }
 
 /* ----- Main Navigation ----- */
@@ -89,75 +99,102 @@ header {
 .main-nav {
     text-align: center;
     list-style: none; /* no bullets point*/
-    margin-top: 45px;
+    padding-bottom: 15px;
+    background: #f5f5f5;
+    -webkit-box-shadow: 0 0 9px 9px rgba(195,195,195,.12);
+    box-shadow: 0 0 9px 9px rgba(195,195,195,.12);
+    font-family: 'Patrick Hand', cursive;
 }
 
 .main-nav li {
     display: inline-block; /* Make li elements side by side */
     margin: 0 40px;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     text-align: right;
+    padding-top: 2vh;
+    font-weight: normal;
 }
 
 .main-nav li a:link, /* This is a link */
 .main-nav li a:visited { /* visited link should be the same */
     padding: 10px;
     text-decoration: none;
-    color: #FFFAF2;
+    color: #333333;
     text-transform: uppercase;
-    font-size: 36%;
-    font-weight: 400;
-    border-bottom: 1px solid transparent;
+    font-size: 55%;
+    font-weight: normal;
 }
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 1px solid #f9933e;
+    /*border-bottom: 1px solid #f9933e;*/
+    color: rgba(82, 82, 221, 0.81);
+    font-size: 60%;
+    font-weight: 800;
+    -webkit-transition: .3s;
+    transition: .3s;
 }
 
 /* ----- Mobile Navigation ----- */
 
 .mobile-nav-icon {
-    float: right;
     cursor: pointer;
     margin: 25px;
     display: none;
+    text-align: center;
 }
 
 .mobile-nav-icon i {
     font-size: 150%;
-    color: #FFFAF2;
+    color: black;
+}
+
+/* ----- About Me Section ----- */
+.about-me {
+    margin: 15vh 10vh 5vh 10vh;
+    text-align: justify;
+    font-size: 70%;
+}
+
+p::first-letter { 
+    font-size: 200%;
+    color: black;
 }
 
 /* ----- Stories Section ----- */
 .stories {
     width: 100%;
-    height: 100vh;
+    height: auto;
 }
 
-.story:first-child{
-    background-color: antiquewhite;
+.ion-happy-outline {
+    font-size: 7vw;
+    text-align: center;
 }
 
-.story:last-of-type{
-    background-color: skyblue; 
+.ion-ios-paper-outline {
+    font-size: 7vw;
+    text-align: center;
 }
 
+.text-description {
+    padding-top: 1%;
+    text-align: center;
+}
 
 /* ----- Projects Section ----- */
 .projects {
     width: 100%;
     height: auto;
-    background-color: rgba(198, 198, 198, 0.47);
-    padding-top: 5vh;
 }
-
 
 .title-section {
     text-align: center;
     font-size: 7vh;
     font-weight: 400;
     padding-bottom: 5vh;
+    font-family: 'Patrick Hand', cursive;
+    text-transform: uppercase;
 }
 
 .project-display {
@@ -166,22 +203,54 @@ header {
 
 .project-display img {
     width: 85%;
-    border-radius: 10px;
     border: 1px solid #eee;
     height: 45vh;
     margin-bottom: 5vh;
-    -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
 }
 
 .project-display img:hover {
     border: 2px solid #ed9c19;
-    -webkit-transform: scale(1.1);
-	transform: scale(1.1);
 }
 
+h3 {
+    padding-bottom: 2vh;
+    font-family: 'Patrick Hand', cursive;
+    letter-spacing: 1vh;
+}
+
+figure h3:hover{
+    color: pink;
+    -webkit-transition: .2s ease-in;
+    transition: .2s ease-in;
+}
+
+figcaption {
+    overflow: hidden;
+    height: 20vh;
+    font-size: 3vh;
+    margin: 0 2vh 0 4vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+figure a {
+    background: #fff;
+    padding: 10px 20px 12px 20px;
+    border-radius: 10px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 2px;
+    -webkit-box-shadow: 0 0 6px 6px rgba(195,195,195,.12);
+    box-shadow: 0 0 6px 6px rgba(195,195,195,.12);
+    color: #ce7a88;
+}
+
+figure a:hover{
+    color: #e6556e;
+}
 /* ----- Footer ----- */
 .footer-info {
     width: 100%;

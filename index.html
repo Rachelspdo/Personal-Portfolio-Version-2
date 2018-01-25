@@ -5,6 +5,7 @@
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato|Patrick+Hand" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
@@ -13,44 +14,66 @@
         <title>Rachel Portfolio</title>
     </head>
     <body>
+        <section>
+            <div class="row">
+                <a class="col span-2-of-2 mobile-nav-icon js--nav-icon"><i class="ion-drag"></i></a>
+                <ul class="main-nav js--main-nav">
+                    <li><a href="#stories">My Stories</a></li>
+                    <li><a href="#works">My Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div><h1> Rachel </h1></div>
+            </div>
+        </section>
         <header>
-            <nav>
-                <div class="row">
-                    <a class="mobile-nav-icon js--nav-icon"><i class="ion-drag"></i></a>
-                    <ul class="main-nav js--main-nav">
-                        <li><a href="#stories">My Stories</a></li>
-                        <li><a href="#works">My Works</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
             <div class="name-box">
-                <h5>Hello I am</h5>
-                <h1>Rachel Do</h1>
-                <h6>Front-end Web Developer from Seattle</h6>
+                <h5>Hello This Is Dummy Text</h5>
+                <h6>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</h6>
             </div>
         </header>
         
-        <section class="stories" id="stories">
+        <section class="about-me">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc</p>
+        </section>
+        <!--<section class="stories" id="stories">
             <div class="row">
                 <div class="col span-1-of-4 title-section ">Stories</div>
-                <!--Add Timeline -->
             </div>
-        </section>
-        
-        <section class="projects js--wp-1" id="works">
+            
             <div class="row">
-                <div class="col span-4-of-4 title-section ">Projects</div></div>
-                <div class="row">
-                    <div class="col span-1-of-2 project-display">
-                    <a href=""><img src="resources/img/project1.jpg"></a>
-                    <a href=""><img src="resources/img/project3.jpg"></a>
-                    </div>
-                    <div class="col span-1-of-2 project-display">
-                    <a href=""><img src="resources/img/project2.jpg"></a>
-                    <a href=""><img src="resources/img/project4.jpg"></a>
-                    </div>
+                <div class="col span-1-of-3 ion-happy-outline"></div>
+                <div class="col span-1-of-3 ion-ios-paper-outline"></div>
+            </div>
+            <div class="row text-description">
+                <div class="col span-1-of-3"> Description </div>
+                <div class="col span-1-of-3"> Skills </div>
+            </div>
+        </section> -->
+        
+        <div class="row">
+            <div class="col span-4-of-4 js--wp-1 title-section" id="works">Projects</div>
+        </div>
+        
+        <section class="projects" >
+            <div class="row">
+                <div class="col span-1-of-2 project-display">
+                    <figure>
+                        <img src="resources/img/project1.jpg">
+                        <h3> Restaurant Application </h3>
+                        <figcaption>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.</figcaption>
+                        <a href="">Follow To Mainpage</a>
+                    </figure>
+                    
                 </div>
+                <div class="col span-1-of-2 project-display">
+                    <figure>
+                        <img src="resources/img/project3.jpg">
+                        <h3> Map </h3>
+                    <figcaption>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.</figcaption>
+                        <a href="">Follow To Mainpage</a>
+                    </figure>
+                    </div>
+            </div>
             
         </section>
         <footer class="footer-info" id="contact">

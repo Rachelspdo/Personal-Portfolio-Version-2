@@ -1,5 +1,4 @@
 $(document).ready(function () {
- 
     
     /* Mobile navigation */
     $('.js--nav-icon').click(function() {
